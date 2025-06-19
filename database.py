@@ -6,7 +6,7 @@ import logging
 # Определяем Base после импорта
 Base = declarative_base()
 
-SQL_DB_URL = 'postgresql://postgres:369538@localhost/qdo_db'
+SQL_DB_URL = 'your_url_database'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
